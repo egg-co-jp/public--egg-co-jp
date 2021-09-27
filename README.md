@@ -1,2 +1,2 @@
 # install_windows_app
-Windowsアプリをwingetでインストールすします
+Windowsアプリをwingetでインストールします
