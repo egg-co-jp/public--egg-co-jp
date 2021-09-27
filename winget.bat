@@ -8,6 +8,7 @@ winget install -e --id Hashicorp.Vagrant
 winget install -e --id JetBrains.Toolbox
 winget install -e --id JetBrains.PHPStorm
 winget install -e --id Git.Git
+winget install -e --id GitHub.GitLFS
 winget install -e --id TortoiseGit.TortoiseGit
 winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id PostgreSQL.pgAdmin-x64
