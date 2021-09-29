@@ -1,7 +1,7 @@
 # install_windows_app
 Windowsアプリを「winget」でインストールします。
 
-まずはwinget（Windows Package Manager）をインストールしてください。
+まずは [winget（Windows Package Manager）](https://github.com/microsoft/winget-cli/releases/latest) をインストールしてください。
 （拡張子が .msixbundle のファイルをDL、実行）
 
 ![image](https://user-images.githubusercontent.com/86991695/135211970-0af80bb2-8bcd-49e7-a527-d85d225c1c56.png)
