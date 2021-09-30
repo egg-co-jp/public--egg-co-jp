@@ -7,7 +7,7 @@ winget install -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 winget install -e --id JetBrains.Toolbox
 winget install -e --id JetBrains.PHPStorm
-https://egg-jp.backlog.jp/alias/file/2416822
+start https://egg-jp.backlog.jp/alias/file/2416822
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -e --id TortoiseGit.TortoiseGit
