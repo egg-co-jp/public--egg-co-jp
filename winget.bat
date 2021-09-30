@@ -1,10 +1,12 @@
+REM [ -i はインストールウィザードを表示するオプション。ないとエラーになるケースや個別に設定が必要なケースで使用 ]
+REM [ -e --id は大文字小文字を区別してアプリのIDを指定するというオプション ]
 REM [ Firefoxは英語版が入ってしまうためここに記述していません ]
 winget install -e --id Google.Chrome
 winget install -i -e --id Microsoft.Office
 winget install -e --id TeraTermProject.teraterm
 winget install -e --id WinSCP.WinSCP
 winget install -e --id PuTTY.PuTTY
-winget install -e --id Oracle.VirtualBox
+winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 winget install -e --id JetBrains.Toolbox
 winget install -e --id JetBrains.PHPStorm
