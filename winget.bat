@@ -9,7 +9,6 @@ winget install -e --id PuTTY.PuTTY
 winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 winget install -e --id JetBrains.Toolbox
-winget install -e --id JetBrains.PHPStorm
 winget install -e --id PostgreSQL.pgAdmin
 winget install -e --id Postman.Postman
 winget install -e --id 7zip.7zip
