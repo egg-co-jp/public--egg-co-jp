@@ -1,7 +1,7 @@
 # wingetインストールが終わったら
 
 ## PhpStorm
-JetBrains Tools で PhpStorm をインストールしてください
+JetBrains Toolbox で PhpStorm をインストールしてください
 
 ![image](https://user-images.githubusercontent.com/86991695/135412807-1d8a6b94-ec20-4474-b685-ff7398609d27.png)
 
