@@ -11,5 +11,5 @@ winget install -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -e --id TortoiseGit.TortoiseGit
 winget install -e --id Microsoft.GitCredentialManagerCore
-winget install -e --id PostgreSQL.pgAdmin-x64
+winget install -e --id PostgreSQL.pgAdmin
 winget install -e --id 7zip.7zip
