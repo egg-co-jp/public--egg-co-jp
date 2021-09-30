@@ -17,3 +17,4 @@ winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id TortoiseGit.TortoiseGit
+start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md
