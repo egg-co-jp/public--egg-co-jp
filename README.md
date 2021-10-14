@@ -12,6 +12,5 @@ Githubページの「Code」メニューからDownload ZIPしてください。
 
 ![ダウンロード](https://user-images.githubusercontent.com/86991695/134862588-27c6996f-51aa-4892-b282-c36e9a73df4f.png)
 
-ZIPファイルを展開したら `egg-winget.bat` を管理者に実行してもらってください。
-
-管理者はbatファイルを右クリック→「管理者として実行」してください。
+ZIPファイルを展開したら `egg-winget.bat` を実行してください。
+管理者権限を求められるので、管理者に認証をお願いしてください。
