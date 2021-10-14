@@ -5,7 +5,7 @@ REM [ -e --id は大文字小文字を区別してアプリのIDを指定する�
 REM [ Firefoxは英語版が入ってしまうためここに記述していません ]
 
 REM [ 管理者権限で起動するとPATHが通ってないので、一時的にPATHを通します ]
-SET PATH=%PATH%;C:%HOMEPATH%\AppData\Local\Microsoft\WindowsApps
+@REM SET PATH=%PATH%;C:%HOMEPATH%\AppData\Local\Microsoft\WindowsApps
 
 REM [ GIT関連 ]
 start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/git_install_manual.md
