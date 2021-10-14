@@ -4,6 +4,7 @@ REM [ -i ‚ÍƒCƒ“ƒXƒg[ƒ‹ƒEƒBƒU[ƒh‰æ–Ê‚ð•\Ž¦‚·‚éƒIƒvƒVƒ‡ƒ“B‚È‚¢‚ÆƒGƒ‰[‚É‚È‚éƒP
 REM [ -e --id ‚Í‘å•¶Žš¬•¶Žš‚ð‹æ•Ê‚µ‚ÄƒAƒvƒŠ‚ÌID‚ðŽw’è‚·‚é‚Æ‚¢‚¤ƒIƒvƒVƒ‡ƒ“ ]
 REM [ Firefox‚Í‰pŒê”Å‚ª“ü‚Á‚Ä‚µ‚Ü‚¤‚½‚ß‚±‚±‚É‹Lq‚µ‚Ä‚¢‚Ü‚¹‚ñ ]
 
+REM [ ŠÇ—ŽÒŒ ŒÀ‚ÅŽÀs‚µ‚Ä‚¢‚È‚¢‚Æ‚«A–{ƒXƒNƒŠƒvƒg‚ðŠÇ—ŽÒ‚Æ‚µ‚ÄŽÀs‚µ‚Â‚Âˆø”‚Éƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠƒpƒX‚ð“n‚· ]
 if not "%~1" == "ADMINMODE" (
   powershell "start-process -FilePath '%~dpnx0' -ArgumentList 'ADMINMODE %USERPROFILE%' -verb runas"
   exit /b
