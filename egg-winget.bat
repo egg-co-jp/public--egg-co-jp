@@ -4,21 +4,7 @@ REM [ -i ‚ÍƒCƒ“ƒXƒg[ƒ‹ƒEƒBƒU[ƒh‰æ–Ê‚ð•\Ž¦‚·‚éƒIƒvƒVƒ‡ƒ“B‚È‚¢‚ÆƒGƒ‰[‚É‚È‚éƒP
 REM [ -e --id ‚Í‘å•¶Žš¬•¶Žš‚ð‹æ•Ê‚µ‚ÄƒAƒvƒŠ‚ÌID‚ðŽw’è‚·‚é‚Æ‚¢‚¤ƒIƒvƒVƒ‡ƒ“ ]
 REM [ Firefox‚Í‰pŒê”Å‚ª“ü‚Á‚Ä‚µ‚Ü‚¤‚½‚ß‚±‚±‚É‹Lq‚µ‚Ä‚¢‚Ü‚¹‚ñ ]
 
-REM [ ŠÇ—ŽÒŒ ŒÀ‚ÅŽÀs‚µ‚Ä‚¢‚È‚¢‚Æ‚«A–{ƒXƒNƒŠƒvƒg‚ðŠÇ—ŽÒ‚Æ‚µ‚ÄŽÀs‚µ‚Â‚Âˆø”‚Éƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠƒpƒX‚ð“n‚· ]
-if not "%~1" == "ADMINMODE" (
-  powershell "start-process -FilePath '%~dpnx0' -ArgumentList 'ADMINMODE %USERPROFILE%' -verb runas"
-  exit /b
-)
-
-if "%~1" == "ADMINMODE" if "%~2" == "" (
-	echo "ŠÇ—ŽÒŒ ŒÀ‚ÅŽÀs‚¹‚¸A‚Ü‚¸‚Í•’Ê‚Ìƒ†[ƒU‚Æ‚µ‚ÄŽÀs‚µ‚Ä‚­‚¾‚³‚¢"
-	pause
-	exit
-)
-
-REM [ ŠÇ—ŽÒŒ ŒÀ‚Å‹N“®‚·‚é‚Æwinget‚ÌPATH‚ª’Ê‚Á‚Ä‚È‚¢‚Ì‚ÅAˆêŽž“I‚ÉPATH‚ð’Ê‚µ‚Ü‚· ]
-REM [ ã‚ÌŠÇ—ŽÒŒ ŒÀ‚Å‹N“®‚³‚¹‚éƒXƒNƒŠƒvƒg‚Å‘æ2ˆø”‚ÉPCƒ†[ƒU‚Ìƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠƒpƒX‚ð“n‚µ‚Ä‚¢‚é‚Ì‚ÅA‘æ2ˆø”‚ðŽg‚¤ ]
-SET PATH=%PATH%;%~2\AppData\Local\Microsoft\WindowsApps
+REM [ (HŽ–’†) winget PATH‚ª‚¤‚Ü‚­‚¢‚©‚È‚¢–â‘èBŠÇ—ŽÒ‚Æ‚µ‚ÄŽÀs‚Å‚Í‚È‚­A•’Ê‚É‹N“®‚µ‚Ä‚­‚¾‚³‚¢ ]
 
 REM [ GITŠÖ˜A ]
 start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/git_install_manual.md
