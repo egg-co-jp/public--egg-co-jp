@@ -1,8 +1,8 @@
-REM [ -i ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰ç”»é¢ã‚’è¡¨ç¤ºã™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã€‚ãªã„ã¨ã‚¨ãƒ©ãƒ¼ã«ãªã‚‹ã‚±ãƒ¼ã‚¹ã‚„å€‹åˆ¥ã«è¨­å®šãŒå¿…è¦ãªã‚±ãƒ¼ã‚¹ã§ä½¿ç”¨ ]
-REM [ -e --id ã¯å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã—ã¦ã‚¢ãƒ—ãƒªã®IDã‚’æŒ‡å®šã™ã‚‹ã¨ã„ã†ã‚ªãƒ—ã‚·ãƒ§ãƒ³ ]
-REM [ Firefoxã¯è‹±èªç‰ˆãŒå…¥ã£ã¦ã—ã¾ã†ãŸã‚ã“ã“ã«è¨˜è¿°ã—ã¦ã„ã¾ã›ã‚“ ]
+REM [ -i ‚ÍƒCƒ“ƒXƒg[ƒ‹ƒEƒBƒU[ƒh‰æ–Ê‚ğ•\¦‚·‚éƒIƒvƒVƒ‡ƒ“B‚È‚¢‚ÆƒGƒ‰[‚É‚È‚éƒP[ƒX‚âŒÂ•Ê‚Éİ’è‚ª•K—v‚ÈƒP[ƒX‚Åg—p ]
+REM [ -e --id ‚Í‘å•¶š¬•¶š‚ğ‹æ•Ê‚µ‚ÄƒAƒvƒŠ‚ÌID‚ğw’è‚·‚é‚Æ‚¢‚¤ƒIƒvƒVƒ‡ƒ“ ]
+REM [ Firefox‚Í‰pŒê”Å‚ª“ü‚Á‚Ä‚µ‚Ü‚¤‚½‚ß‚±‚±‚É‹Lq‚µ‚Ä‚¢‚Ü‚¹‚ñ ]
 
-REM [ GITé–¢é€£ ]
+REM [ GITŠÖ˜A ]
 start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/git_install_manual.md
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
@@ -10,27 +10,27 @@ winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
 
-REM [ ä»®æƒ³ãƒã‚·ãƒ³ ]
+REM [ ‰¼‘zƒ}ƒVƒ“ ]
 winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 
-REM [ ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ ]
+REM [ ƒ†[ƒeƒBƒŠƒeƒB ]
 winget install -e --id TeraTermProject.teraterm
 winget install -e --id WinSCP.WinSCP
 winget install -e --id PuTTY.PuTTY
 
-REM [ é–‹ç™º ]
+REM [ ŠJ”­ ]
 winget install -e --id JetBrains.Toolbox
 
 winget install -e --id PostgreSQL.pgAdmin
 winget install -e --id Postman.Postman
 
-REM [ ä¸€èˆ¬ ]
+REM [ ˆê”Ê ]
 winget install -e --id 7zip.7zip
 winget install -e --id Google.Chrome
 winget install -i -e --id Microsoft.Office
 
-REM [ ãã®ä»– ]
+REM [ ‚»‚Ì‘¼ ]
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Notepad++.Notepad++
 
