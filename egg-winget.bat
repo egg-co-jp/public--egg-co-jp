@@ -19,7 +19,7 @@ winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 
 REM [ ユーティリティ ]
-winget install -e --id TeraTermProject.teraterm
+winget install -i -e --id TeraTermProject.teraterm
 winget install -e --id WinSCP.WinSCP
 winget install -e --id PuTTY.PuTTY
 
