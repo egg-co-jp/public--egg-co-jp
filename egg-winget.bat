@@ -37,5 +37,6 @@ winget install -i -e --id Microsoft.Office
 REM [ ‚»‚Ì‘¼ ]
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Notepad++.Notepad++
+winget install --accept-package-agreements DevToys
 
 start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md
