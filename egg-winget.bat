@@ -1,3 +1,4 @@
+@echo off
 REM [ š ŠÇ—ŽÒ‚Æ‚µ‚ÄŽÀs‚Å‚Í‚È‚­A•’Ê‚É‹N“®‚µ‚Ä‚­‚¾‚³‚¢ ]
 REM [ š CRLF‚Å‚ ‚é‚±‚Æ‚ðŠm”F LF‚¾‚Æ•s‹ï‡‚ð‹N‚±‚µ‚Ü‚· ]
 
@@ -5,9 +6,18 @@ REM [ -i ‚ÍƒCƒ“ƒXƒg[ƒ‹ƒEƒBƒU[ƒh‰æ–Ê‚ð•\Ž¦‚·‚éƒIƒvƒVƒ‡ƒ“B‚È‚¢‚ÆƒGƒ‰[‚É‚È‚éƒP
 REM [ -e --id ‚Í‘å•¶Žš¬•¶Žš‚ð‹æ•Ê‚µ‚ÄƒAƒvƒŠ‚ÌID‚ðŽw’è‚·‚é‚Æ‚¢‚¤ƒIƒvƒVƒ‡ƒ“ ]
 REM [ Firefox‚Í‰pŒê”Å‚ª“ü‚Á‚Ä‚µ‚Ü‚¤‚½‚ß‚±‚±‚É‹Lq‚µ‚Ä‚¢‚Ü‚¹‚ñ ]
 
+echo;
+echo;
+echo Office‚ÌƒCƒ“ƒXƒg[ƒ‹‚Í”•ª‚©‚©‚è‚Ü‚·B
+echo ‰½‚©ƒL[‚ð‰Ÿ‚·‚ÆƒCƒ“ƒXƒg[ƒ‹ŠJŽn‚µ‚Ü‚·B‚µ‚Î‚ç‚­‘Ò‹@‚µ‚Ä‚­‚¾‚³‚¢B
+echo;
+echo;
+
+PAUSE
+
+@echo on
 
 REM [ ˆê”Ê ]
-start "" cmd /c "echo Office‚ÌƒCƒ“ƒXƒg[ƒ‹‚Í”•ª‚©‚©‚è‚Ü‚·B‚µ‚Î‚ç‚­‘Ò‹@‚µ‚Ä‚­‚¾‚³‚¢B‚±‚ÌƒEƒCƒ“ƒhƒE‚Í•Â‚¶‚Ä–â‘è‚ ‚è‚Ü‚¹‚ñB&echo(&pause"
 winget install -e --id Microsoft.Office
 winget install -e --id 7zip.7zip
 winget install -e --id Google.Chrome
