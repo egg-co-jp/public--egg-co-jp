@@ -4,9 +4,7 @@ Windowsアプリを「winget」でインストールします。
 まずは [Microsoft Store で 「アプリインストーラ」](https://www.microsoft.com/ja-jp/p/app-installer/9nblggh4nns1) をインストールしてください。
 このアプリにwingetコマンドが含まれています。
 
-次に本Githubページの「Code」メニューからDownload ZIPしてください。
-
-![ダウンロード](https://user-images.githubusercontent.com/86991695/134862588-27c6996f-51aa-4892-b282-c36e9a73df4f.png)
+次に [このリンクをクリックしてZIPファイルをダウンロード](https://github.com/egg-co-jp/install_windows_app/archive/refs/heads/main.zip) してください（クリック後、少し反応が遅れてダウンロードされます）。
 
 ZIPファイルを展開したら `egg-winget.bat` を実行してください。  
 （⚠右クリックから管理者として実行するのではなく、普通のユーザとして実行）
