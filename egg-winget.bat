@@ -54,7 +54,8 @@ start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winge
 @echo on
 echo;
 echo;
-echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md)をブラウザで開きました。確認して作業を続けてください。この画面は何かキーを押すと終了します。
+echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md)をブラウザで開きました。
+echo 確認して作業を続けてください。この画面は何かキーを押すと終了します。
 echo;
 echo;
 pause
