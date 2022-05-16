@@ -33,6 +33,7 @@ winget install -e --id WinMerge.WinMerge
 REM [ 仮想マシン ]
 winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
+winget install -e --id VMware.WorkstationPlayer
 
 REM [ ユーティリティ ]
 winget install -i -e --id TeraTermProject.teraterm
@@ -55,7 +56,8 @@ start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winge
 echo;
 echo;
 echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md)をブラウザで開きました。
-echo 確認して作業を続けてください。この画面は何かキーを押すと終了します。
+echo 確認して作業を続けてください。また、上にスクロールして失敗したインストールがないかも確認してください。
+echo この画面は何かキーを押すと終了します。
 echo;
 echo;
 pause
