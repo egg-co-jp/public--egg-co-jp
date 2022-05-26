@@ -7,6 +7,9 @@ JetBrains Toolbox で **PhpStorm** をインストールしてください
 
 ![image](https://user-images.githubusercontent.com/86991695/135412876-157edd4b-e5f3-48e0-a738-0b67b01baf63.png)
 
+![image](https://user-images.githubusercontent.com/86991695/170403370-c8f313b9-60cb-4b12-89eb-cbd4419ccdc9.png)
+
+
 ## TortoiseGitの日本語化
 
 https://tortoisegit.org/download/
