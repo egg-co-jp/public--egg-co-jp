@@ -4,7 +4,6 @@ REM [ ★ CRLFであることを確認 LFだと不具合を起こします ]
 
 REM [ -i はインストールウィザード画面を表示するオプション。ないとエラーになるケースや個別に設定が必要なケースで使用 ]
 REM [ -e --id は大文字小文字を区別してアプリのIDを指定するというオプション ]
-REM [ Firefoxは英語版が入ってしまうためここに記述していません ]
 
 echo;
 echo;
@@ -21,12 +20,12 @@ REM [ 一般 ]
 winget install -e --id Microsoft.Office
 winget install -e --id 7zip.7zip
 winget install -e --id Google.Chrome
+winget install -e --id Mozilla.Firefox
 
 REM [ GIT関連 ]
 start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/git_install_manual.md
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
-winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -i -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
 
