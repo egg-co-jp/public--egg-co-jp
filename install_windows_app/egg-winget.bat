@@ -31,6 +31,7 @@ winget install -e --id PuTTY.PuTTY
 
 REM [ ŠJ”­ ]
 winget install -e --id JetBrains.Toolbox
+winget install -e --id Microsoft.VisualStudioCode
 
 winget install -e --id PostgreSQL.pgAdmin
 winget install -e --id Postman.Postman
@@ -40,7 +41,7 @@ winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Notepad++.Notepad++
 winget install -e --id NickeManarin.ScreenToGif
 
-start https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md
+start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md
 @echo on
 echo;
 echo;
