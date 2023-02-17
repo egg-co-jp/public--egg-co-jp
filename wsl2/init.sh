@@ -13,3 +13,8 @@ sudo dnf install -y epel-release
 sudo dnf config-manager --set-enabled PowerTools
 sudo yum-config-manager --add-repo https://download.opensuse.org/repositories/home:/wslutilities/CentOS_8/home:wslutilities.repo
 sudo dnf install -y wslu
+
+# Windows側のGit認証情報を利用するように設定する
+WINGIT_PATH=$(where.exe git | grep mingw | sed -z 's/\r\n//g' | xargs -0 -I {} wslpath -u "{}")
+WINCRED_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../")/libexec/git-core/git-credential-wincred.exe
+git config --global credential.helper "$(echo "$WINCRED_PATH" | sed -e 's/ /\\ /g')"
