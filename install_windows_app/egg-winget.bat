@@ -18,6 +18,7 @@ winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -i -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
+winget install -e --id GitHub.cli --accept-source-agreements --force
 
 REM [ ‰¼‘zƒ}ƒVƒ“ ]
 winget install -i -e --id Oracle.VirtualBox
