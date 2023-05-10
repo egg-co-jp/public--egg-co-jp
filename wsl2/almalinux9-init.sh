@@ -10,7 +10,7 @@ source ~/.bash_profile
 
 # WSL と Windows 連携を便利にする wslu を導入
 sudo dnf install -y epel-release 
-sudo yum-config-manager --add-repo https://download.opensuse.org/repositories/home:/wslutilities/CentOS_8/home:wslutilities.repo
+sudo dnf copr enable -y wslutilities/wslu
 sudo dnf install -y wslu
 
 # Windows側のGit認証情報を利用するように設定する
