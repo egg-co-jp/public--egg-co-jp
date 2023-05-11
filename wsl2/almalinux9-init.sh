@@ -4,7 +4,7 @@
 sudo dnf install -y git glibc-langpack-en
 
 # Laravel用にエイリアスを登録。 vendor/bin/sail を sail だけで起動できるようにする
-if [ -z "$(which sail)" ]; then echo "alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'" >> ~/.bash_profile && source ~/.bash_profile; fi 2> /dev/null
+if ! command -v sail &> /dev/null; then echo "alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'" >> ~/.bash_profile && source ~/.bash_profile; fi 2> /dev/null
 source ~/.bash_profile
 
 
