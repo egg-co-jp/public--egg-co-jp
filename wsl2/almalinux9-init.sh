@@ -5,7 +5,7 @@ shopt -s expand_aliases
 source ~/.bash_profile
 
 ##########################################################################
-echo -e "\n phpstormからgit操作するため git と言語パックをインストール \n"
+echo -e "\n phpstormからgit操作するため git と言語パックが必要なようなのでインストール \n"
 sudo dnf install -y git glibc-langpack-en
 
 ##########################################################################
