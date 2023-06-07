@@ -16,6 +16,7 @@ REM [ GITŠÖ˜A ]
 start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/git_install_manual.md
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
+winget install -e --id GitHub.cli
 winget install -i -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
 
