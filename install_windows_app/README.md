@@ -13,7 +13,7 @@ Windowsアプリを「winget」でインストールします。
 このアプリにwingetコマンドが含まれています。
 
 ## 2
-次に [このリンクをクリックしてZIPファイルをダウンロード](https://github.com/egg-co-jp/install_windows_app/archive/refs/heads/main.zip) してください（クリック後、少し反応が遅れてダウンロードされます）。
+次に👉 [このリンクをクリックしてZIPファイルをダウンロード](https://github.com/egg-co-jp/install_windows_app/archive/refs/heads/main.zip) 👈 してください（クリック後、少し反応が遅れてダウンロードされます）。
 
 ZIPファイルを展開したら `install_windows_app` フォルダの `egg-winget.bat` を実行してください。  
 （⚠ダブルクリックなどで普通のユーザとして実行。管理者として実行はしないでください）

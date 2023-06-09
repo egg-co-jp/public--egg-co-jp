@@ -13,7 +13,6 @@ winget install -e --id Google.Chrome
 winget install -e --id Mozilla.Firefox
 
 REM [ GIT関連 ]
-start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/git_install_manual.md
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -i -e --id TortoiseGit.TortoiseGit
@@ -29,6 +28,7 @@ REM [ ユーティリティ ]
 winget install -i -e --id TeraTermProject.teraterm
 winget install -e --id WinSCP.WinSCP
 winget install -e --id PuTTY.PuTTY
+winget install --source msstore --accept-package-agreements DevToys
 
 REM [ 開発 ]
 winget install -e --id JetBrains.Toolbox
@@ -46,7 +46,7 @@ start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_a
 @echo on
 echo;
 echo;
-echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/install_windows_app/blob/main/doc/after_winget.md)をブラウザで開きました。
+echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md)をブラウザで開きました。
 echo 確認して作業を続けてください。また、上にスクロールして失敗したインストールがないかも確認してください。
 echo この画面は何かキーを押すと終了します。
 echo;

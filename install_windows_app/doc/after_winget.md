@@ -17,7 +17,3 @@ https://tortoisegit.org/download/
 Language Packs の Japanese 64 Bitをダウンロードして実行
 
 ![image](https://user-images.githubusercontent.com/86991695/135413293-b4501250-fa94-4b4f-b19a-3be6014eaaa0.png)
-
-## その他 
-- [DevToys](https://devtoys.app/) 
-	- Base64エンコード、基数変換、正規表現チェックなど、よく開発中にやりたい処理がひとまとめになった便利ツールです。Webアプリを検索して使うのはセキュリティの問題があるので避けましょう。

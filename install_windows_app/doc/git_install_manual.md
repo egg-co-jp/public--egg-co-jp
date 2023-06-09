@@ -1,3 +1,2 @@
-[Git,Vagrantインストールのマニュアル](https://egg-jp.backlog.jp/alias/file/2416822)
-
-↑Backlog移動後、ログインして資料を確認してください
+ソフトウェア インストール・設定手順
+https://eggjp.sharepoint.com/:p:/s/system/EVHyFsb_29dBqUhdpOsVbuAB8EdbAfVn2pWC1SfL0yr4-g?e=C0P2jg
