@@ -26,3 +26,8 @@ echo -e "\n Windows側のGit認証情報を利用するように設定する \n"
 WINGIT_PATH=$(where.exe git | grep mingw | sed -z 's/\r\n//g' | xargs -0 -I {} wslpath -u "{}")
 WINCRED_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../")/libexec/git-core/git-credential-wincred.exe
 git config --global credential.helper "$(echo "$WINCRED_PATH" | sed -e 's/ /\\ /g')"
+
+##########################################################################
+echo -e "\n WindowsでVPN接続時にパケットがロスしないようMTUを小さめの1100に設定する（通常1500） \n";
+sudo dnf install -y iproute
+sudo ip link set dev eth0 mtu 1100
