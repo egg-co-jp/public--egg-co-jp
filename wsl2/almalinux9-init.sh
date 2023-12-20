@@ -6,7 +6,7 @@ source ~/.bash_profile
 
 ##########################################################################
 echo -e "\n phpstormからgit操作するため git と言語パックが必要なようなのでインストール \n"
-sudo dnf install -y git glibc-langpack-en
+sudo dnf install -y git git-lfs glibc-langpack-en
 
 ##########################################################################
 echo -e "\n Laravel用にエイリアスを登録。 vendor/bin/sail を sail だけで起動できるようにする \n"
