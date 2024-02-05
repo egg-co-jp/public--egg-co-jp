@@ -1,43 +1,42 @@
 @echo off
-REM [ š ŠÇ—Ò‚Æ‚µ‚ÄÀs‚Å‚Í‚È‚­A•’Ê‚É‹N“®‚µ‚Ä‚­‚¾‚³‚¢ ]
-REM [ š CRLF‚Å‚ ‚é‚±‚Æ‚ğŠm”F LF‚¾‚Æ•s‹ï‡‚ğ‹N‚±‚µ‚Ü‚· ]
+REM [ â˜… ç®¡ç†è€…ã¨ã—ã¦å®Ÿè¡Œã§ã¯ãªãã€æ™®é€šã«èµ·å‹•ã—ã¦ãã ã•ã„ ]
+REM [ â˜… CRLFã§ã‚ã‚‹ã“ã¨ã‚’ç¢ºèª LFã ã¨ä¸å…·åˆã‚’èµ·ã“ã—ã¾ã™ ]
 
-REM [ -i ‚ÍƒCƒ“ƒXƒg[ƒ‹ƒEƒBƒU[ƒh‰æ–Ê‚ğ•\¦‚·‚éƒIƒvƒVƒ‡ƒ“B‚È‚¢‚ÆƒGƒ‰[‚É‚È‚éƒP[ƒX‚âŒÂ•Ê‚Éİ’è‚ª•K—v‚ÈƒP[ƒX‚Åg—p ]
-REM [ -e --id ‚Í‘å•¶š¬•¶š‚ğ‹æ•Ê‚µ‚ÄƒAƒvƒŠ‚ÌID‚ğw’è‚·‚é‚Æ‚¢‚¤ƒIƒvƒVƒ‡ƒ“ ]
+REM [ -i ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰ç”»é¢ã‚’è¡¨ç¤ºã™ã‚‹ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã€‚ãªã„ã¨ã‚¨ãƒ©ãƒ¼ã«ãªã‚‹ã‚±ãƒ¼ã‚¹ã‚„å€‹åˆ¥ã«è¨­å®šãŒå¿…è¦ãªã‚±ãƒ¼ã‚¹ã§ä½¿ç”¨ ]
+REM [ -e --id ã¯å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã—ã¦ã‚¢ãƒ—ãƒªã®IDã‚’æŒ‡å®šã™ã‚‹ã¨ã„ã†ã‚ªãƒ—ã‚·ãƒ§ãƒ³ ]
 
 @echo on
 
-REM [ ˆê”Ê ]
+REM [ ä¸€èˆ¬ ]
 winget install -e --id 7zip.7zip
 winget install -e --id Google.Chrome
 winget install -e --id Mozilla.Firefox
 
-REM [ GITŠÖ˜A ]
+REM [ GITé–¢é€£ ]
 winget install -i -e --id Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -i -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
-winget install -e --id GitHub.cli --accept-source-agreements --force
 
-REM [ ‰¼‘zƒ}ƒVƒ“ ]
+REM [ ä»®æƒ³ãƒã‚·ãƒ³ ]
 winget install -i -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 winget install -e --id VMware.WorkstationPlayer
 
-REM [ ƒ†[ƒeƒBƒŠƒeƒB ]
+REM [ ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ ]
 winget install -i -e --id TeraTermProject.teraterm
 winget install -e --id WinSCP.WinSCP
 winget install -e --id PuTTY.PuTTY
 winget install --source msstore --accept-package-agreements DevToys
 
-REM [ ŠJ”­ ]
+REM [ é–‹ç™º ]
 winget install -e --id JetBrains.Toolbox
 winget install -e --id Microsoft.VisualStudioCode
 
 winget install -e --id PostgreSQL.pgAdmin
 winget install -e --id Postman.Postman
 
-REM [ ‚»‚Ì‘¼ ]
+REM [ ãã®ä»– ]
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Notepad++.Notepad++
 winget install -e --id NickeManarin.ScreenToGif
@@ -46,9 +45,9 @@ start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_a
 @echo on
 echo;
 echo;
-echo uwingetƒCƒ“ƒXƒg[ƒ‹‚ªI‚í‚Á‚½‚çvƒy[ƒW(https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md)‚ğƒuƒ‰ƒEƒU‚ÅŠJ‚«‚Ü‚µ‚½B
-echo Šm”F‚µ‚Äì‹Æ‚ğ‘±‚¯‚Ä‚­‚¾‚³‚¢B‚Ü‚½Aã‚ÉƒXƒNƒ[ƒ‹‚µ‚Ä¸”s‚µ‚½ƒCƒ“ƒXƒg[ƒ‹‚ª‚È‚¢‚©‚àŠm”F‚µ‚Ä‚­‚¾‚³‚¢B
-echo ‚±‚Ì‰æ–Ê‚Í‰½‚©ƒL[‚ğ‰Ÿ‚·‚ÆI—¹‚µ‚Ü‚·B
+echo ã€Œwingetã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒçµ‚ã‚ã£ãŸã‚‰ã€ãƒšãƒ¼ã‚¸(https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md)ã‚’ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ãã¾ã—ãŸã€‚
+echo ç¢ºèªã—ã¦ä½œæ¥­ã‚’ç¶šã‘ã¦ãã ã•ã„ã€‚ã¾ãŸã€ä¸Šã«ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã—ã¦å¤±æ•—ã—ãŸã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒãªã„ã‹ã‚‚ç¢ºèªã—ã¦ãã ã•ã„ã€‚
+echo ã“ã®ç”»é¢ã¯ä½•ã‹ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨çµ‚äº†ã—ã¾ã™ã€‚
 echo;
 echo;
 pause
