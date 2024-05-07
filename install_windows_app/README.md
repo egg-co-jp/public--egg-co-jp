@@ -1,7 +1,7 @@
 # install_windows_app
 Windowsアプリを「winget」でインストールします。
 
-👉 [このリンクをクリックしてZIPファイルをダウンロード](https://github.com/egg-co-jp/install_windows_app/archive/refs/heads/main.zip) 👈 してください（クリック後、少し反応が遅れてダウンロードされます）。
+👉 [このリンクをクリックしてZIPファイルをダウンロード](https://github.com/egg-co-jp/install_windows_app/archive/refs/heads/main.zip) 👈 してください（クリック後、数秒でダウンロード開始します）。
 
 ZIPファイルを展開したら `install_windows_app` フォルダの `egg-winget.bat` を実行してください。  
 （⚠ダブルクリックなどで普通のユーザとして実行。管理者として実行はしないでください）
