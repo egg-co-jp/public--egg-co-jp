@@ -19,7 +19,7 @@ winget install -i -e --id TortoiseGit.TortoiseGit
 winget install -e --id WinMerge.WinMerge
 
 REM [ 仮想マシン ]
-winget install -i -e --id Oracle.VirtualBox
+winget install -e --id Oracle.VirtualBox
 winget install -e --id Hashicorp.Vagrant
 winget install -e --id VMware.WorkstationPlayer
 
@@ -41,12 +41,11 @@ winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Notepad++.Notepad++
 winget install -e --id NickeManarin.ScreenToGif
 
-start https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md
 @echo on
 echo;
 echo;
-echo 「wingetインストールが終わったら」ページ(https://github.com/egg-co-jp/public--egg-co-jp/blob/main/install_windows_app/doc/after_winget.md)をブラウザで開きました。
-echo 確認して作業を続けてください。また、上にスクロールして失敗したインストールがないかも確認してください。
+echo インストール設定手順パワポの「wingetインストールが終わったら」を確認して作業を続けてください。
+echo また、上にスクロールして失敗したインストールがないかも確認してください。
 echo この画面は何かキーを押すと終了します。
 echo;
 echo;
