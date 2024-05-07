@@ -12,6 +12,7 @@ winget install -e --id 7zip.7zip
 winget install -e --id Google.Chrome
 winget install -e --id Mozilla.Firefox
 winget install -e --id Zoom.Zoom
+winget install -e --id Google.GoogleDrive
 
 REM [ Git関連 ]
 winget install -i -e --id Git.Git
