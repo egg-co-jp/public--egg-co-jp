@@ -1,19 +1,3 @@
 # wingetインストールが終わったら
 
-## PhpStorm
-JetBrains Toolbox で **PhpStorm** をインストールしてください
-
-![image](https://user-images.githubusercontent.com/86991695/135412807-1d8a6b94-ec20-4474-b685-ff7398609d27.png)
-
-![image](https://user-images.githubusercontent.com/86991695/170405658-68a0c7d9-d30f-41a8-ac54-76ad38496324.png)
-
-<img src="https://user-images.githubusercontent.com/86991695/170406003-87f11036-1984-42c0-86bc-d4eae2473641.png" width="300">
-
-
-## TortoiseGitの日本語化
-
-https://tortoisegit.org/download/
-
-Language Packs の Japanese 64 Bitをダウンロードして実行
-
-![image](https://user-images.githubusercontent.com/86991695/135413293-b4501250-fa94-4b4f-b19a-3be6014eaaa0.png)
+「[ソフトウェアインストール設定手順](https://eggjp.sharepoint.com/:p:/s/system/EVHyFsb_29dBqUhdpOsVbuAB8EdbAfVn2pWC1SfL0yr4-g?e=C0P2jg)」パワポを確認
