@@ -23,8 +23,8 @@ sudo dnf install -y wslu
 
 ##########################################################################
 echo -e "\n Windows側のGit認証情報を利用するように設定する \n";
-WINGIT_PATH=$(where.exe git | grep mingw | sed -z 's/\r\n//g' | xargs -0 -I {} wslpath -u "{}")
-HELPER_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../")/bin/git-credential-manager.exe
+WINGIT_PATH=$(where.exe git | grep cmd | sed -z 's/\r\n//g' | xargs -0 -I {} wslpath -u "{}")
+HELPER_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../")/mingw64/bin/git-credential-manager.exe
 git config --global credential.helper "$(echo "$HELPER_PATH" | sed -e 's/ /\\ /g')"
 
 echo -e "\n その他 Git 設定";
