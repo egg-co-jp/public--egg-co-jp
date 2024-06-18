@@ -24,7 +24,8 @@ sudo dnf install -y wslu
 ##########################################################################
 echo -e "\n Windows側のGit認証情報を利用するように設定する \n";
 
-# Windows 側の "git-credential-manager.exe" という EXE ファイルを認証ヘルパーに指定することで、 Windows 側 Git の認証情報を再利用します
+# Windows 側の "git-credential-manager.exe" という exe ファイルを認証ヘルパー (config の credential.helper) に指定することで、
+# Windows 側 Git の認証情報を再利用します
 
 # ........... ↓ 
 # ........... ↓ Windows の Git パスを求めて　  ............... ↓ WSL におけるパス (Cドライブは /mnt/c/ ) に変換しています
