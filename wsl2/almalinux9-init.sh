@@ -39,8 +39,3 @@ git config --global credential.helper "$(echo "$HELPER_PATH" | sed -e 's/ /\\ /g
 
 echo -e "\n その他 Git 設定";
 git config --global core.autocrlf false
-
-##########################################################################
-echo -e "\n WindowsでVPN接続時にパケットがロスしないようMTUを小さめの1100に設定する（通常1500） \n";
-sudo dnf install -y iproute
-sudo ip link set dev eth0 mtu 1100
