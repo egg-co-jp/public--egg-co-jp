@@ -5,7 +5,7 @@ shopt -s expand_aliases
 source ~/.bash_profile
 
 ##########################################################################
-echo -e "\n phpstormからgit操作するため git と言語パックが必要なようなのでインストール \n"
+echo -e "\n phpstormからgit操作するため git インストールと、追加で言語パックが必要そうなのでインストール \n"
 sudo dnf install -y git git-lfs glibc-langpack-en
 
 ##########################################################################
@@ -23,8 +23,18 @@ sudo dnf install -y wslu
 
 ##########################################################################
 echo -e "\n Windows側のGit認証情報を利用するように設定する \n";
+
+# Windows 側の "git-credential-manager.exe" という EXE ファイルを認証ヘルパーに指定することで、 Windows 側 Git の認証情報を再利用します
+
+# ........... ↓ 
+# ........... ↓ Windows の Git パスを求めて　  ............... ↓ WSL におけるパス (Cドライブは /mnt/c/ ) に変換しています
 WINGIT_PATH=$(where.exe git | grep cmd | sed -z 's/\r\n//g' | xargs -0 -I {} wslpath -u "{}")
-HELPER_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../")/mingw64/bin/git-credential-manager.exe
+
+# 上記で求めた git.exe は "(略)/Git/cmd/git.exe" のようになっていますが、
+# 本当に欲しいパスは "(略)/Git/mingw64/bin/git-credential-manager.exe" のような形式
+# ............↓ git.exe から git-credential-manager.exe への相対パスを、realpath コマンドで絶対パスに変換
+HELPER_PATH=$(realpath "$(dirname "$WINGIT_PATH")/../mingw64/bin/git-credential-manager.exe")
+
 git config --global credential.helper "$(echo "$HELPER_PATH" | sed -e 's/ /\\ /g')"
 
 echo -e "\n その他 Git 設定";
