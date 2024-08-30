@@ -5,8 +5,41 @@ shopt -s expand_aliases
 source ~/.bash_profile
 
 ##########################################################################
+echo -e "\n work-alma9 ディレクトリを作成 \n"
+sudo mkdir -p /work-alma9
+sudo chown $USER:$USER /work-alma9
+
+
+##########################################################################
 echo -e "\n phpstormからgit操作するため git インストールと、追加で言語パックが必要そうなのでインストール \n"
 sudo dnf install -y git git-lfs glibc-langpack-en
+
+
+##########################################################################
+echo -e "\n Node.js が未インストールならインストール \n"
+if ! command -v node &> /dev/null; then
+  sudo dnf module install -y nodejs:20
+fi
+
+##########################################################################
+echo -e "\n Taskfile をセットアップ \n"
+
+# task コマンドを使う時に Tab キーでオートコンプリートできるようにする
+# https://taskfile.dev/installation/#setup-completions
+sudo dnf install -y bash-completion
+if [ ! -f /usr/local/bin/task.bash ]; then
+  sudo curl https://raw.githubusercontent.com/go-task/task/main/completion/bash/task.bash -o /usr/local/bin/task.bash
+  sudo chmod +x /usr/local/bin/task.bash
+fi
+if ! grep -q "source /usr/local/bin/task.bash" ~/.bash_profile; then
+  echo "source /usr/local/bin/task.bash" >> ~/.bash_profile
+fi
+
+# task コマンド本体をインストール
+if ! command -v task &> /dev/null; then 
+  sudo npm i -g @go-task/cli
+fi
+
 
 ##########################################################################
 echo -e "\n Laravel用にエイリアスを登録。 vendor/bin/sail を sail だけで起動できるようにする \n"
