@@ -73,3 +73,12 @@ git config --global credential.helper "$(echo "$HELPER_PATH" | sed -e 's/ /\\ /g
 
 echo -e "\n その他 Git 設定";
 git config --global core.autocrlf false
+
+###########################################################################
+echo -e "\n Home Brew をインストール\n";
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+###########################################################################
+echo -e "\n ecspresso をインストール\n";
+brew install kayac/tap/ecspresso
