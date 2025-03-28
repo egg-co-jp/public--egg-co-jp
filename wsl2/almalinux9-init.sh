@@ -75,13 +75,15 @@ echo -e "\n その他 Git 設定";
 git config --global core.autocrlf false
 
 ###########################################################################
-echo -e "\n AWS CLI をインストール\n";
+echo -e "\n AWS CLI とセッションマネージャプラグインをインストール\n";
 sudo dnf install -y unzip
 cd /tmp
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 rm -rf ./aws
+
+sudo dnf install -y https://s3.amazonaws.com/session-manager-downloads/plugin/latest/linux_64bit/session-manager-plugin.rpm
 
 
 ###########################################################################
